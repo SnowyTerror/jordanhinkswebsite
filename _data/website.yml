@@ -17,7 +17,7 @@ clients:
 -   {name: HairWolf, folder: hairwolf, address: 'hairwolf.co.uk', url: 'http://www.hairwolf.co.uk', description: "To promote &amp; give more information about their hair product."}
 
 #Portfolio
-portfolio-blurb: Here are a few photos that I personally feel are very good that I have of course taken. Find the rest on my FaceBook page <a href="#">here</a>.
+portfolio-blurb: Here are a few photos that I personally feel are very good that I have of course taken. Find the rest on my FaceBook page <a href="https://www.facebook.com/JordanHinks01/media_set?set=a.2034378246788382.1073741833.100006486806696">here</a>.
 
 portfolio:
 -   {file-name: image-01.jpg, name: "Dull Bridge", date: '31.05.2016'}

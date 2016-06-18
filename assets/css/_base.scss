@@ -24,6 +24,7 @@ body {
     color: $text-color;
     -webkit-font-smoothing: antiliased;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
 }
 
 * {

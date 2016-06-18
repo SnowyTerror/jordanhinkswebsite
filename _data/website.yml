@@ -1,0 +1,35 @@
+# Site settings
+title: Jordan Hinks
+description: I'm a Web Designer, Graphic Designer & Photographer that likes to just design things that look good.
+
+# Navigation Item
+menu:
+-   {name: Home, url: "#home"}
+-   {name: Clients, url: "#clients"}
+-   {name: Portfolio, url: "#portfolio"}
+-   {name: About, url: "#about"}
+-   {name: Contact, url: "#contact"}
+
+# Clients
+clients:
+-   {name: Gary Wales, folder: garywales, address: 'garywales.co.uk', url: 'http://www.garywales.co.uk', description: "To promote Gary Wales as an actor &amp; social media personality."}
+-   {name: Vision Gaming, folder: visiongaming, address: 'visiongaming.co.uk', url: 'http://www.visiongaming.co.uk', description: "A central hub for players to get more information about the community."}
+-   {name: HairWolf, folder: hairwolf, address: 'hairwolf.co.uk', url: 'http://www.hairwolf.co.uk', description: "To promote &amp; give more information about their hair product."}
+
+#Portfolio
+portfolio-blurb: Here are a few photos that I personally feel are very good that I have of course taken. Find the rest on my FaceBook page <a href="#">here</a>.
+
+portfolio:
+-   {file-name: image-01.jpg, name: "Dull Bridge", date: '31.05.2016'}
+-   {file-name: image-02.jpg, name: "Mountain Perspective", date: '31.05.2016'}
+-   {file-name: image-03.jpg, name: "Feather Leaf", date: '31.05.2016'}
+-   {file-name: image-04.jpg, name: "Peace", date: '31.05.2016'}
+
+# Overall Content
+header-background: background.jpg
+header-title: Hey I'm Jordan!
+header-blurb: I'm a <span>web designer</span>, <span>graphic designer</span> &amp; <span>Photographer</span> that likes to just design things that look good.
+
+about: As you know already I'm Jordan and that I like to design websites along with taking photos, but some things that you may also want to know is that I'm not a talkative person, but doesn't mean I am not a listener. I prefer to listen to what others have to say and then give my point on the matter and throw ideas around. I like to experiment with new ways of doing things as to how I can show content within a web page or to represent a brand using complex looking techniques but are simple.
+
+        In my spare time, I like to play video games as a way to chill out and get my mind away from thinking of new ideas. I also fix computers with my spare time when it's available and this would be software and a little bit of hardware, one time I was asked to fix a laptop with the problem that all the USB ports wouldn't work and the guy needed it for the next night, I stayed up for 4 hours trying to fix that thing and I was determined to not give up, guess what I did... I didn't give up. Hope you liked that wee story.

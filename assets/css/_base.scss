@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,300);
+
+// Links
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+// Selection
+::selection {
+    background: $primary-color;
+}
+
+img::seleciton {
+    background: transparent;
+}
+
+// Basic Styles
+body {
+    background: $background-color;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Exo 2', sans-serif;
+    color: $text-color;
+    -webkit-font-smoothing: antiliased;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: 300;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper-slim {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2.subheader {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+
+    span {
+        letter-spacing: -3px;
+        margin: 0 0.4rem;
+    }
+    
+    @media only screen and (max-width: 440px) {
+        font-size: 16px;
+        
+        span {
+            display: none;
+        }
+    }
+}
+
+// WORK IN PROGRESS TO TOP BUTTON LOCATED IN BOTTOM RIGHT - Disabled in HTML
+/*#to-top {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    z-index: 5;
+    right: 1rem;
+    bottom: 1rem;
+    display: block;
+    background: rgba($primary-color, 0.6);
+    
+    span, span:before, span:after {
+        height: 1px;
+        background: black;
+        width: 80%;
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        left: 6px;
+        clear: both;
+    }
+    
+    span:before {
+        top: 15px;
+    }
+    
+    span:after {
+        top: 45px;
+    }
+}*/
+
+footer {
+    width: 100%;
+    background: darken($background-color,05%);
+    padding: 0.5rem 0 1rem;
+    text-align: center;
+    
+    p {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}

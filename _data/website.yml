@@ -8,7 +8,7 @@ menu:
 -   {name: Clients, url: "#clients"}
 -   {name: Portfolio, url: "#portfolio"}
 -   {name: About, url: "#about"}
-#-   {name: Contact, url: "#contact"}
+-   {name: Contact, url: "#contact"}
 
 # Clients
 clients:

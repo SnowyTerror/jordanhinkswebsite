@@ -49,7 +49,7 @@ $(document).ready(function() {
     
     //Client Info Load
     $(function() {
-        $.ajaxSetup({ cache: false });
+        $.ajaxSetup({ cache: true });
         
         $('.docs').click(function() {
             var $this = $(this),

@@ -127,13 +127,26 @@
         </ul>
     </section>
     
-    <!--<section id="contact">
+    <section id="contact">
         <div class="wrapper">
             <h2 class="subheader"><span>---</span> Like my work? <span>---</span></h2>
             
             <p>If you want this type of work done for you then please contact me by filling out this form below.</p>
             
-            <form action="">
+            <form action="https://formspree.io/{{ site.data.website.email }}"
+      method="POST">
+                <div class="input-group">
+                    <input type="text" name="name" required>
+                    <label> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="_replyto" required>
+                    <label> Your Email</label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+            
+            <!--<form action="">
                 <div class="input-group">
                     <input type="text" required>
                     <label> Your Name</label>
@@ -143,9 +156,9 @@
                     <label> Your Email</label>
                 </div>
                 <input type="submit" value="Send">
-            </form>
+            </form>-->
         </div>
-    </section>-->
+    </section>
     
     <section id="about">
         <div class="wrapper">

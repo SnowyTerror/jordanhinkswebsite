@@ -21,10 +21,12 @@ clients:
 portfolio-blurb: Here are a few photos that I personally feel are very good that I have of course taken. Find the rest on my FaceBook page <a href="#">here</a>.
 
 portfolio:
--   {file-name: image-01.jpg, name: "Bridging Paths", date: '31.05.2016'}
+-   {file-name: image-01.jpg, name: "Breaking Path", date: '31.05.2016'}
 -   {file-name: image-02.jpg, name: "Rooting Mountains", date: '31.05.2016'}
 -   {file-name: image-03.jpg, name: "Fallen Feather", date: '31.05.2016'}
 -   {file-name: image-04.jpg, name: "Timeless River", date: '31.05.2016'}
+-   {file-name: image-05.jpg, name: "NAME", date: '31.05.2016'}
+-   {file-name: image-06.jpg, name: "NAME", date: '31.05.2016'}
 
 # Overall Content
 header-background: background.jpg

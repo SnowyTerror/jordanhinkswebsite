@@ -20,10 +20,10 @@ clients:
 portfolio-blurb: Here are a few photos that I personally feel are very good that I have of course taken. Find the rest on my FaceBook page <a href="https://www.facebook.com/JordanHinks01/media_set?set=a.2034378246788382.1073741833.100006486806696">here</a>.
 
 portfolio:
--   {file-name: image-01.jpg, name: "Dull Bridge", date: '31.05.2016'}
--   {file-name: image-02.jpg, name: "Mountain Perspective", date: '31.05.2016'}
--   {file-name: image-03.jpg, name: "Feather Leaf", date: '31.05.2016'}
--   {file-name: image-04.jpg, name: "Peace", date: '31.05.2016'}
+-   {file-name: image-01.jpg, name: "Bridging Paths", date: '31.05.2016'}
+-   {file-name: image-02.jpg, name: "Root By Root", date: '31.05.2016'}
+-   {file-name: image-03.jpg, name: "Featherless", date: '31.05.2016'}
+-   {file-name: image-04.jpg, name: "Timeless River", date: '31.05.2016'}
 
 # Overall Content
 email: jordanhinks0@gmail.com

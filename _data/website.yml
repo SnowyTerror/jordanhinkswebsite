@@ -25,8 +25,8 @@ portfolio:
 -   {file-name: image-02.jpg, name: "Rooting Mountains", date: '31.05.2016'}
 -   {file-name: image-03.jpg, name: "Fallen Feather", date: '31.05.2016'}
 -   {file-name: image-04.jpg, name: "Timeless River", date: '31.05.2016'}
--   {file-name: image-05.jpg, name: "NAME", date: '31.05.2016'}
--   {file-name: image-06.jpg, name: "NAME", date: '31.05.2016'}
+-   {file-name: image-05.jpg, name: "Natures Path", date: '31.05.2016'}
+-   {file-name: image-06.jpg, name: "Dandelion Evolution", date: '31.05.2016'}
 
 # Overall Content
 header-background: background.jpg

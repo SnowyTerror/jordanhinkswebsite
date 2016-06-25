@@ -40,9 +40,9 @@
 
 <body id="home">
     
-    <!--<div id="to-top">
+    <a href="#home" id="to-top" class="hidden">
         <span></span>
-    </div>-->
+    </a>
     
     <header style="background-image: url(assets/img/{{  site.data.website.header-background }});">
         <div id="navbar">
@@ -174,18 +174,6 @@
                 </div>
                 <input type="submit" value="Send">
             </form>
-            
-            <!--<form action="">
-                <div class="input-group">
-                    <input type="text" required>
-                    <label> Your Name</label>
-                </div>
-                <div class="input-group">
-                    <input type="email" required>
-                    <label> Your Email</label>
-                </div>
-                <input type="submit" value="Send">
-            </form>-->
         </div>
     </section>
     
@@ -193,7 +181,7 @@
         <div class="wrapper">
             <h2 class="subheader"><span>---</span> About me <span>---</span></h2>
             
-            <p>{{ site.data.website.about }}</p>
+            <p>{{ site.data.website.about-me }}</p>
         </div>
     </section>
     

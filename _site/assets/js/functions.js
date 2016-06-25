@@ -6,6 +6,33 @@ $(document).ready(function() {
         $('#main-nav').toggleClass('active');
     });
     
+    // To Top Button Hidden at Top
+    /*$(function () {
+        var $win - $(window);
+        
+        $win.scroll(function () {
+            if ($win.scrollTop() <= 600)
+                $('#to-top').addClass('hidden')
+            else if ($win.height() + $win.scrollTop() > 600) {
+                $('#to-top').removeClass('hidden');
+            }
+        });
+    });*/
+    
+    // Hide To Top
+    $(function () {
+        var $win = $(window);
+        
+        $win.scroll(function () {
+            if ($win.scrollTop() < 399)
+              $('#to-top').addClass('hidden')
+            else if ($win.height() + $win.scrollTop()
+            >= 400) {
+              $('#to-top').removeClass('hidden')
+            }
+        });
+    });
+    
     // Scroll animate
     $(function() {
        $('a[href^="#"]').on('click', function(event) {

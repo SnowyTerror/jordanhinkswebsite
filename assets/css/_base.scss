@@ -27,8 +27,9 @@ body {
     line-height: 1.4;
     font-family: 'Exo 2', sans-serif;
     color: $text-color;
-    -webkit-font-smoothing: antiliased;
-    -webkit-text-size-adjust: 100%;
+    font-smoothing: antiliased;
+    text-size-adjust: 100%;
+    position: relative;
 }
 
 * {
@@ -74,36 +75,54 @@ h2.subheader {
     }
 }
 
-// WORK IN PROGRESS TO TOP BUTTON LOCATED IN BOTTOM RIGHT - Disabled in HTML
-/*#to-top {
-    height: 60px;
-    width: 60px;
+a#to-top {
     position: fixed;
-    z-index: 5;
+    z-index: 10;
     right: 1rem;
-    bottom: 1rem;
-    display: block;
+    bottom: 0rem;
+    height: 3rem;
+    width: 4rem;
     background: rgba($primary-color, 0.6);
+    border-radius: 10px 10px 0 0;
+    transition: 0.2s cubic-bezier(.4,.3,.2,2);
+    cursor: pointer;
+    transform-origin: bottom center;
     
-    span, span:before, span:after {
+    span,
+    span:before {
+        display: block;
+        content: "";
+        margin: 0 auto;
+        width: 31px;
         height: 1px;
-        background: black;
-        width: 80%;
-        display: inline-block;
-        position: absolute;
-        top: 30px;
-        left: 6px;
-        clear: both;
+        background: $text-color;
+        position: relative;
+        border-radius: 50px;
+    }
+    
+    span {
+        transform-origin: center;
+        transform: rotate(-45deg) translate(-20px, 5px);
     }
     
     span:before {
-        top: 15px;
+        transform: rotate(90deg) translate(15px, -15px);
     }
     
-    span:after {
-        top: 45px;
+    &:hover {
+        height: 4rem;
+        background: rgba($primary-color, 0.9);
+        
+        span,
+        span:before {
+            
+        }
     }
-}*/
+}
+
+a.hidden {
+    transform: scale(0);
+}
 
 footer {
     width: 100%;

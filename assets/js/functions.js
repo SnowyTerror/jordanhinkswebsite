@@ -78,7 +78,7 @@ $(document).ready(function() {
     });
     
     // Contact Form Submit Success Alert
-    function successAlert() {
+    /*function successAlert() {
         sweetAlert('Success!', 'I will respond to your email within 48 hours. thank you!');
     }
     
@@ -96,6 +96,6 @@ $(document).ready(function() {
                 successAlert();
             }
         });
-    });
+    });*/
     
 });

@@ -88,7 +88,7 @@ $(document).ready(function() {
         e.preventDefault();
         
         $.ajax({
-            url: '//formspree.io/jordanhinks0@gmail.com',
+            url: 'https://formspree.io/jordanhinks0@gmail.com',
             method: 'POST',
             data: $(this).serialize(),
             dataType: 'json',

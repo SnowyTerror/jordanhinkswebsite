@@ -79,7 +79,7 @@ $(document).ready(function() {
     
     // Contact Form Submit Success Alert
     function successAlert() {
-        sweetAlert('Congratulations!', 'Your message has been successfully sent', 'success');
+        sweetAlert('Success!', 'I will respond to your email within 48 hours. thank you!');
     }
     
     var $contact_form = $('#contact-form');
@@ -97,7 +97,9 @@ $(document).ready(function() {
             }
         });
         
-        $('#contact-form').resetForm();
+        $('#contact-form').each(function() {
+            this.reset();
+        });
     });
     
 });

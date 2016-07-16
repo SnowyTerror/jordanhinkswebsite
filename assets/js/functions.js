@@ -96,10 +96,6 @@ $(document).ready(function() {
                 successAlert();
             }
         });
-        
-        $('#contact-form').each(function() {
-            this.reset();
-        });
     });
     
 });

@@ -96,6 +96,8 @@ $(document).ready(function() {
                 successAlert();
             }
         });
+        
+        $('#contact-form').resetForm();
     });
     
 });

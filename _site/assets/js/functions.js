@@ -82,4 +82,20 @@ $(document).ready(function() {
         sweetAlert('Congratulations!', 'Your message has been successfully sent', 'success');
     }
     
+    var $contact_form = $('#contact-form');
+    
+    $contact_form.submit(function(e) {
+        e.preventDefault();
+        
+        $.ajax({
+            url: '//formspree.io/jordanhinks0@gmail.com',
+            method: 'POST',
+            data: $(this).serialize(),
+            dataType: 'json',
+            success: function(data) {
+                successAlert();
+            }
+        });
+    });
+    
 });

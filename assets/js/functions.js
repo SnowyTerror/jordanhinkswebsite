@@ -6,19 +6,6 @@ $(document).ready(function() {
         $('#main-nav').toggleClass('active');
     });
     
-    // To Top Button Hidden at Top
-    /*$(function () {
-        var $win - $(window);
-        
-        $win.scroll(function () {
-            if ($win.scrollTop() <= 600)
-                $('#to-top').addClass('hidden')
-            else if ($win.height() + $win.scrollTop() > 600) {
-                $('#to-top').removeClass('hidden');
-            }
-        });
-    });*/
-    
     // Hide To Top
     $(function () {
         var $win = $(window);
@@ -89,5 +76,10 @@ $(document).ready(function() {
             $('strong').text(newTitle);
         });
     });
+    
+    // Contact Form Submit Success Alert
+    function successAlert() {
+        sweetAlert('Congratulations!', 'Your message has been successfully sent', 'success');
+    }
     
 });

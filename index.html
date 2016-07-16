@@ -161,9 +161,10 @@
             <p>If you want this type of work done for you then please contact me by filling out this form below.</p>
             
             <form action="https://formspree.io/{{ site.data.website.email }}"
-      method="POST">
+      method="POST" onsubmit="successAlert()">
+                <input type="hidden" name="_subject" value="New Submission from JordanHinks.co.uk">
                 <input type="text" name="_gotcha" style="display:none">
-                <input type="hidden" name="_next" value="sent.html">
+                <input type="hidden" name="_next" value="#">
                 <div class="input-group">
                     <input type="text" name="name" required>
                     <label> Your Name</label>
@@ -191,5 +192,6 @@
     
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="assets/js/functions.js" type="text/javascript"></script>
+    <script src="assets/js/sweetalert.min.js" type="text/javascript"></script>
 </body>
 </html>

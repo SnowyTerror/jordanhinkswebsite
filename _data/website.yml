@@ -20,6 +20,7 @@ header-blurb: I am an English photographer who loves graphic & web design; aesth
 # Clients
 clients:
 #-   {name: Gary Wales, folder: garywales, address: 'garywales.co.uk', url: 'http://www.garywales.co.uk', description: "To promote Gary Wales as an actor &amp; social media personality."}
+## NEEDS DESCRIPTION WRITEN ## -   {name: Agri Auto Parts, folder: agriautoparts, address: 'agriautoparts.ie', url: 'http://www.agriautoparts.ie', description: "Sells motor parts and is centralized in Ireland."}
 -   {name: Vision Gaming, folder: visiongaming, address: 'visiongaming.co.uk', url: 'http://www.visiongaming.co.uk', description: "A central hub for players to get more information about the community."}
 -   {name: HairWolf, folder: hairwolf, address: 'hairwolf.co.uk', url: 'http://www.hairwolf.co.uk', description: "To promote &amp; give more information about their hair product."}
 

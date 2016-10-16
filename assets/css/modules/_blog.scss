@@ -8,6 +8,25 @@ section#blog {
   
   .wrapper {
     
+    .bottom {
+      .subheader {
+        font-size: 1.1rem;
+        opacity: 0.4;
+      }
+      
+      p.contributor {
+        font-size: 0.8rem;
+        opacity: 0.2;
+      }
+    }
+      
+    .contributor {
+      display: inline-block;
+      margin-right: 1.5rem;
+      opacity: 0.8;
+      font-style: italic;
+    }
+    
     hr.blog-hr {
       margin: 1rem auto 0.5rem;
     }

@@ -87,7 +87,11 @@ $(document).ready(function() {
     var defaultSubmitText = $submit.val();
 
     $.ajax({
+<<<<<<< HEAD
       url: 'https://formspree.io/jordanhinks0@gmail.com',
+=======
+      url: '//formspree.io/jordanhinks0@gmail.com',
+>>>>>>> origin/gh-pages
       method: 'POST',
       data: $(this).serialize(),
       dataType: 'json',

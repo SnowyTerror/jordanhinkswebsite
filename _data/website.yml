@@ -13,7 +13,7 @@ logo-alt-name: Jordan Hinks Logo
 navigation:
 - {name: Home, link: "#home"}
 - {name: Clients, link: "#clients"}
-- {name: Portfolio, link: "#portfolio"}
+- {name: Portfolio, link: "#portfolio-header"}
 - {name: About, link: "#about"}
 - {name: Contact, link: "#contact"}
 

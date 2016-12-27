@@ -27,12 +27,8 @@ $(document).ready(function() {
 
       if (target.length) {
         event.preventDefault();
-
         $('#nav').removeClass('open');
-
-        $('html, body').animate( {
-        scrollTop: target.offset().top 
-        }, 400);
+        $('html, body').animate({scrollTop: target.offset().top -60}, 400);
       }
     });
   });

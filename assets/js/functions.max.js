@@ -87,7 +87,7 @@ $(document).ready(function() {
     var defaultSubmitText = $submit.val();
 
     $.ajax({
-      url: 'https://formspree.io/{{ site.data.website.email }}',
+      url: '//formspree.io/jordanhinks0@gmail.com',
       method: 'POST',
       data: $(this).serialize(),
       dataType: 'json',

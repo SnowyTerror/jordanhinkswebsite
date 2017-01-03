@@ -36,7 +36,8 @@ clients:
 - {name: HairWolf, folder: hairwolf, website: 'hairwolf.co.uk', link: 'http://www.hairwolf.co.uk'}
 
 #Portfolio
-portfolio-blurb: Here are a few photos that I personally feel are very good that I have of course taken. Find the rest on my FaceBook page <a href="#">here</a>.
+portfolio-blurb: Here are a few photos that I feel are examples of my best works.
+#Find the rest on my Facebook page <a href="#">here</a>.
 
 portfolio:
 - {file-name: image-01.jpg, name: "Timeless River", date: '31.05.2016'}

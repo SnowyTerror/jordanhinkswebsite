@@ -31,9 +31,12 @@ header-button-two-link: '#about'
 
 # Clients
 clients:
-- {name: Agri Auto Parts, folder: agriautoparts, website: 'agriautoparts.ie', url: 'http://www.agriautoparts.ie'}
-- {name: Vision Gaming, folder: visiongaming, website: 'visiongaming.co.uk', link: 'http://www.visiongaming.co.uk'}
-- {name: HairWolf, folder: hairwolf, website: 'hairwolf.co.uk', link: 'http://www.hairwolf.co.uk'}
+#- {name: NAME, folder: FOLDER, worktype: 'TYPE'}
+- {name: SHINE Valeting Services, folder: shinevaletingservices, worktype: 'Graphic Branding'}
+- {name: Gaming Respawn, folder: gamingrespawn, worktype: 'Graphic Rebranding'}
+- {name: Agri Auto Parts, folder: agriautoparts, worktype: 'Graphic Rebranding'}
+- {name: Vision Gaming, folder: visiongaming, worktype: 'Website Redesign'}
+- {name: HairWolf, folder: hairwolf, worktype: 'Website Design'}
 
 #Portfolio
 portfolio-blurb: Here are a few photos that I feel are examples of my best works.

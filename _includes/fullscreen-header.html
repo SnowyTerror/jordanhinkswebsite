@@ -1,0 +1,38 @@
+<header class="fullscreen" style="background-image: url({{site.baseurl}}/assets/img/landing-background.jpg)">
+  <div class="container">
+    <nav id="navbar" class="nav-white">
+
+      <ul id="nav-items">
+        <li class="{% if page.url == '/' %}active{% endif %}"><a href="index.html">Home</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li class="{% if page.url == 'projects.html' %}active{% endif %}"><a href="projects.html">Projects</a></li>
+        <li class="{% if page.url == 'about.html' %}active{% endif %}"><a href="about.html">About</a></li>
+        <li><a class="contact-trigger">Contact</a></li>
+      </ul>
+
+      <img src="{{site.baseurl}}/assets/img/logo-white.svg" alt="Jordan Hinks Logo" class="logo">
+
+      <div id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+  
+  <!-- Testimonials -->
+  <div id="tm-slides">
+    {% for testimonial in site.data.website.testimonials %}
+    <div class="tm-slide">
+      <div class="tm">
+        <h3>{{ testimonial.testimonial }}</h3>
+        <p>{{ testimonial.name}} <span>{{ testimonial.relation }}</span></p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Move to next -->
+  <a href="#clients" class="arrow-down"><span></span></a>
+</header>

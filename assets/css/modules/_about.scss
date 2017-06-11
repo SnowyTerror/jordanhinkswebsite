@@ -1,0 +1,109 @@
+#about {
+
+  .norm {
+    display: none;
+  }
+
+  .timeline {
+    margin: 5rem 0;
+    position: relative;
+    height: 100%;
+
+    &:after {
+      position: absolute;
+      background: #141414;
+      content: " ";
+      width: 1px;
+      height: 100%;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-.5px);
+    }
+
+    .item {
+      width: calc(50% - 2rem);
+      margin: 1rem 0;
+      @extend %cf;
+
+      &:nth-child(even) {
+        float: right;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .icon {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        padding: .8rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(calc(-1px + -9px + -.8rem));
+        z-index: 2;
+        background: white;
+        border: solid 1px black;
+        text-align: center;
+      }
+
+      .content {
+        background: white;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+        margin-bottom: 2rem;
+        padding: 1.2rem 1rem 2rem 1rem;
+        margin-top: calc(0.8rem + 9px + 1px);
+
+        h2 {
+          font-weight: 300;
+          font-size: 1.4rem;
+          margin-bottom: 0.6rem;
+        }
+
+        p {
+          font-size: 1rem;
+          line-height: 1.4rem;
+          color: #404040;
+        }
+      }
+    }
+
+    // Width 810px - START
+    @media only screen and(max-width: 810px) {
+      margin: 0;
+
+      &:after {
+        display: none;
+      }
+
+      .item {
+        width: 95%;
+        margin: 0 auto 1rem;
+        position: relative;
+
+        &:nth-child(even) {
+          float: none;
+        }
+
+        .icon {
+          width: 30px;
+          height: 30px;
+          left: auto;
+          right: -.4rem;
+          top: .6rem;
+        }
+      }
+    }
+    // Width 810px - END
+
+    // Width 440px - START
+    @media only screen and(max-width: 440px) {
+      .item {
+        .icon {
+          display: none;
+        }
+      }
+    }
+    // Width 440px - END
+  }
+}

@@ -1,0 +1,23 @@
+<header>
+  <div class="container">
+    <nav id="navbar" class="nav-black">
+
+      <ul id="nav-items">
+        <li class="{% if page.url == '/' %}active{% endif %}"><a href="index.html">Home</a></li>
+        <li><a href="index.html#clients">Clients</a></li>
+        <li class="{% if page.url == 'projects.html' %}active{% endif %}"><a href="projects.html">Projects</a></li>
+        <li class="{% if page.url == 'about.html' %}active{% endif %}"><a href="about.html">About</a></li>
+        <li><a class="contact-trigger">Contact</a></li>
+      </ul>
+
+      <img src="{{site.baseurl}}/assets/img/logo-black.svg" alt="Jordan Hinks Logo" class="logo">
+
+      <div id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>

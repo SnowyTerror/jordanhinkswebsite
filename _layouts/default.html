@@ -1,25 +1,106 @@
+---
+---
+
+<!--*******************************************************
+* Copyright (C) 2015-2018 {Jordan Hinks} <{JordanHinks0@gmail.com}>
+*
+* This file is part of {Jordan Hinks Personal Website}.
+*
+* {Jordan Hinks Personal Website} can not be copied and/or distributed without the express
+* permission of {Jordan Hinks}
+*******************************************************-->
+
 <!DOCTYPE html>
-<html lang="en-uk">
-<head>
+<html lang="en">
+  <head>
   <meta charset="utf-8">
-  <title>Jordan Hinks</title>
-  <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
-</head>
-<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{site.data.website.title}}</title>
+  <meta name="description" content="{{site.data.website.description}}">
+  <meta name="keywords" content="{{site.data.website.keywords}}">
 
-  <header>
-    <h1>Name Title</h1>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/img/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/img/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/img/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/img/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/img/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/img/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="{{site.data.website.title}}"/>
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-TileImage" content="{{site.baseurl}}/assets/img/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="{{site.baseurl}}/assets/img/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="{{site.baseurl}}/assets/img/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="{{site.baseurl}}/assets/img/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="{{site.baseurl}}/assets/img/favicons/mstile-310x310.png" />
 
-    {% include nav.html %}
-  </header>
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+  <script type="text/javascript" src="{{site.baseurl}}/assets/js/functions.js"></script>
+  </head>
+  <body>
 
-  {{content}}
+    {% if page.url == '/' %}
+      {% include fullscreen-header.html  %}
+    {% else %}
+      {% include header.html %}
+    {% endif %}
 
-  <footer>
-    {% include nav.html %}
+    {{content}}
 
-    <p>© 2017 Name Title</p>
-  </footer>
+    <footer>
+      <div class="container"><p>Copyright (c) 2017 Jordan Hinks All Rights Reserved.</p></div>
+    </footer>
 
-</body>
+    <div id="contact-modal" class="modal-area">
+      <div class="container contain-sml">
+        <div class="modal">
+          <div class="modal-content">
+            <div class="container">
+              <h1>Enquiry Form</h1>
+
+              <form action="" method="post" id="contact-form">
+
+                <input type="hidden" name="_subject" value="New Enquiry - JordanHinks.com">
+                <input type="text" name="_gotcha" style="display:none">
+
+                <div class="input-group">
+                  <input type="text" name="name" id="name" required>
+                  <label>Name</label>
+                </div>
+
+                <div class="input-group">
+                  <input type="tel" name="phone" id="phone">
+                  <label>Phone</label>
+                </div>
+
+                <div class="input-group">
+                  <input type="email" name="email" id="email" required>
+                  <label>Email</label>
+                </div>
+
+                <div class="input-group">
+                  <textarea name="message" id="message" maxlength="1500" required></textarea>
+                  <label>Message</label>
+                </div>
+
+                <input type="submit" value="Send">
+              </form>
+
+            </div>
+
+            <a class="close-modal">
+              <i class="fa fa-close"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

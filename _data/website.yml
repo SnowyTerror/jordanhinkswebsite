@@ -1,0 +1,19 @@
+# Site SEttings
+title: Jordan Hinks
+description: I am a graphics and website designer.
+keywords: Jordan Hinks, Website Designer, Web Designer, Graphic Designer, Graphics Designer
+
+# Testimonials
+testimonials:
+- {testimonial: 'Loved the logo, excellent design and was exactly what I was after.', name: 'Stephen J.', relation: 'founder of Gaming Respawn'}
+- {testimonial: 'The end product of what I asked for was mroe than what I expected and will most definitely take him on for furture work.', name: 'Gareth L.', relation: 'founder of SHINE'}
+- {testimonial: 'CONTENT', name: 'JOHN', relation: 'RELATE'}
+- {testimonial: 'CONTENT', name: 'JOHN', relation: 'RELATE'}
+
+# Clients
+clients:
+- {name: SHINE, folder: shinevaletingservices, worktype: 'branding', coverage: full}
+- {name: Vision Gaming, folder: visiongaming, worktype: 'website, branding', coverage: half}
+- {name: Agri Auto Parts, folder: agriautoparts, worktype: 'branding', coverage: half}
+- {name: HairWolf, folder: hairwolf, worktype: 'website', coverage: half}
+- {name: Gaming Respawn, folder: gamingrespawn, worktype: 'branding', coverage: half}

@@ -1,0 +1,61 @@
+@import 'normal.scss';
+@import 'base.scss';
+
+// Navbar
+@import 'modules/navbar.scss';
+
+// Background
+@import 'modules/background.scss';
+
+h2.sub-header {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  &.border {
+    border-bottom: solid 1px black;
+    max-width: 220px;
+    padding-bottom: 0.5rem;
+
+    // Width 420px - START
+    @media only screen and(max-width: 420px) {
+      text-align: center;
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  }
+}
+
+section {
+  padding: 4rem 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+// Clients
+@import 'modules/clients.scss';
+
+// About
+@import 'modules/about.scss';
+
+// Footer
+@import 'modules/footer.scss';
+
+// loader
+@import 'modules/loader.scss';
+
+// Contact Popup
+@import 'modules/contact.scss';
+
+// No Content
+.no-content {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #999;
+  margin-top: 18vh;
+
+  i {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+}

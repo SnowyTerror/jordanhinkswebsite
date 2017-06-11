@@ -4,7 +4,37 @@ layout: default
 
 ---
 
+<section id="clients" class="cf">
+    <div class="clients-area">
 
-<h1>Jordan Hinks</h1>
+      <!-- Clients -->
+      <div class="clients">
+        <div class="container contain">
+        <h2 class="sub-header border" style="margin-bottom: 1.5rem;">Clients</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum non nam, aliquam sequi voluptatibus nesciunt soluta amet? Libero sequi dignissimos excepturi ipsam natus nostrum, sapiente, explicabo. Omnis iusto, voluptates assumenda!</p>
+        <ul>
+          {% for client in site.data.website.clients %}
+          <li class="client-tn info {{ client.coverage }}" data-folder="{{ client.folder }}" >
+            <img class="client-img" src="assets/img/clients/{{ client.folder }}/preview.jpg" alt="{{ client.name }}">
+            <div class="overlay"></div>
+            <span class="fold"></span>
+            <div class="container">
+              <h3>{{ client.name }} <i class="fa fa-angle-right"></i></h3>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        </div>
+      </div>
+
+      <div class="client">
+        <div class="container contain">
+          <h2 class="sub-header border"><strong></strong></h2>
+
+          <div class="client-content"></div>
+
+          <a href="#clients" class="btn back">Back</a>
+        </div>
+      </div>
+    </div>
+</section>

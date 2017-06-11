@@ -1,3 +1,4 @@
+
 markdown: redcarpet
 highlighter: rouge
-exclude: ['README.md', 'prepros-6.config']
+exclude: ['README.md']

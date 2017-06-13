@@ -7,8 +7,10 @@ keywords: Jordan Hinks, Website Designer, Web Designer, Graphic Designer, Graphi
 testimonials:
 - {testimonial: 'Loved the logo, excellent design and was exactly what I was after.', name: 'Stephen J.', relation: 'founder of Gaming Respawn'}
 - {testimonial: 'The end product of what I asked for was mroe than what I expected and will most definitely take him on for furture work.', name: 'Gareth L.', relation: 'founder of SHINE'}
-- {testimonial: 'CONTENT', name: 'JOHN', relation: 'RELATE'}
-- {testimonial: 'CONTENT', name: 'JOHN', relation: 'RELATE'}
+#- {testimonial: 'CONTENT', name: 'Sean L.', relation: 'retail assistant of Agri Auto Parts'}
+#- {testimonial: 'I was very delighted with the end product that I received, ', name: 'Rylan J.', relation: 'founder of Vision Gaming'}
+- {testimonial: '', name: '', relation: ''}
+- {testimonial: '', name: '', relation: ''}
 
 # Clients
 clients:
@@ -17,3 +19,10 @@ clients:
 - {name: Agri Auto Parts, folder: agriautoparts, worktype: 'branding', coverage: half}
 - {name: HairWolf, folder: hairwolf, worktype: 'website', coverage: half}
 - {name: Gaming Respawn, folder: gamingrespawn, worktype: 'branding', coverage: half}
+
+# About
+about:
+- {title: Personal Synopsis, content: "My name is Jordan Hinks and I am a graphics and website designer. I am currently studying level 5 interactive multimedia in Southern Regional College Armagh. This has allowed me to enhance my knowledge in front-end and back-end website design."}
+- {title: What I Like Doing, content: "I like creating designs that are elegant and innovative, discovering new design techniques and completing projects which I can take great pride in. Outside of graphic design, I enjoy playing computer games, conversing with friends, and reading.", extention: right}
+- {title: How I Started Graphics Design, content: "I first began graphics design during my secondary school years; I saw potential in creating websites that were aesthetically beautiful and professionally optimised. I enjoyed toying with numerous graphical tools such as Adobe PhotoShop and Adobe Illustrator, devising website concepts and bringing them to life using HTML and CSS."}
+- {title: My Work Ethic, content: "I understand the importance of effective communication - I strive to meet the targets and visual goals set out by the client while also offering professional and helpful advice concerning the project’s direction and final format. Using this method, it is hoped that a more efficient and impressive project may be created.", extention: right}

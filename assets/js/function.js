@@ -90,7 +90,7 @@ jQuery(document).ready(function($) {
 
   // Client Info Load
   $(function() {
-    $.ajaxSetup({ cache: true });
+    $.ajaxSetup({ cache: false });
 
     $('.info').click(function() {
       var $this = $(this),

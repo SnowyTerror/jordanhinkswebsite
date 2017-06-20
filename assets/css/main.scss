@@ -59,3 +59,44 @@ section {
     margin-bottom: 1.5rem;
   }
 }
+
+// No Script
+noscript {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.85);
+  z-index: 100;
+
+  .band {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: calc(50% - 0vh);
+    transform: translateY(-50%);
+    left: 0;
+    background: rgba(#B92531, 0.85);
+    background: rgba(255,255,255,0.95);
+    padding: 2rem 0;
+    text-align: center;
+
+    p {
+      color: black;
+      font-size: 1.1rem;
+    }
+
+    a {
+      border: solid 1px black;
+      padding: 1rem 1.4rem;
+      color: black;
+      margin-top: 1.5rem;
+
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+  }
+}

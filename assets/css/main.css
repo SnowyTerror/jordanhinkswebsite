@@ -938,13 +938,15 @@ header.header-fullscreen {
   text-align: center;
   overflow: hidden; }
 
+header.header-fullscreen .logo {
+  mix-blend-mode: soft-light; }
+
 header .logo {
   height: 60px;
   z-index: 11;
   position: relative;
   float: left;
-  margin-top: 1.5rem;
-  mix-blend-mode: soft-light; }
+  margin-top: 1.5rem; }
 
 header #scroll-down {
   position: absolute;
